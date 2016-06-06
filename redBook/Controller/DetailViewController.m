@@ -78,7 +78,7 @@
     self.contentImageView = contentImageView;
     [scrollView addSubview:contentImageView];
     contentImageView.frame = self.desImageViewRect;
-    
+    contentImageView.backgroundColor = [UIColor groupTableViewBackgroundColor];
     
     
     UILabel* contentLB = [[UILabel alloc] init];

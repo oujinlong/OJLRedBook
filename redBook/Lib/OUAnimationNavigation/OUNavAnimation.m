@@ -26,6 +26,7 @@
     
    __block UIImageView* imageView = [[UIImageView alloc] initWithImage:self.imageView.image];
     imageView.frame = self.isPush ? self.origionRect : self.desRect;
+    imageView.backgroundColor = self.imageView.backgroundColor;
     [contentView addSubview:toVc.view];
     toVc.view.alpha = 0;
 
