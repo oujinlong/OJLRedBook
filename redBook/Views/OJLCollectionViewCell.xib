@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9532" systemVersion="15B42" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9530"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="cell" id="gTV-IL-0wX" customClass="OJLCollectionViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="219" height="356"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="219" height="356"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="9qg-4R-itx">
+                        <rect key="frame" x="0.0" y="251" width="219" height="105"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Aquazzra高跟鞋，实物美哭，10cm的跟上脚特别性感，鞋子上的钻超级闪，吸睛，银色太百搭啦，简单的一条裤子或裙子搭配起来都很好看" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cPK-eu-F6d">
+                                <rect key="frame" x="8" y="10" width="203" height="43"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="chatListCellHead.png" translatesAutoresizingMaskIntoConstraints="NO" id="ZiV-rG-9MG">
+                                <rect key="frame" x="5" y="73" width="22" height="22"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="22" id="aW3-V8-R5R"/>
+                                    <constraint firstAttribute="height" constant="22" id="sOL-2E-Xc5"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="c2S-by-5oq">
+                                <rect key="frame" x="32" y="77.5" width="28.5" height="13.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="11"/>
+                                <color key="textColor" red="0.2528254908" green="0.25439225939999999" blue="0.2606570513" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="H66-ha-UvX">
+                                <rect key="frame" x="187" y="77" width="15" height="15"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="15" id="0Za-NT-CtE"/>
+                                    <constraint firstAttribute="width" constant="15" id="14W-ON-vWb"/>
+                                </constraints>
+                                <state key="normal" title="Button" image="braceletLiked.png"/>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="105" id="5yO-de-qcg"/>
+                            <constraint firstAttribute="trailing" secondItem="H66-ha-UvX" secondAttribute="trailing" constant="17" id="LJa-w7-X5n"/>
+                            <constraint firstAttribute="trailing" secondItem="cPK-eu-F6d" secondAttribute="trailing" constant="8" id="SF6-st-IZg"/>
+                            <constraint firstItem="c2S-by-5oq" firstAttribute="centerY" secondItem="ZiV-rG-9MG" secondAttribute="centerY" id="Uis-Ni-UlD"/>
+                            <constraint firstItem="cPK-eu-F6d" firstAttribute="top" secondItem="9qg-4R-itx" secondAttribute="top" constant="10" id="aBO-ly-CYV"/>
+                            <constraint firstAttribute="bottom" secondItem="ZiV-rG-9MG" secondAttribute="bottom" constant="10" id="bFP-jN-bo2"/>
+                            <constraint firstItem="cPK-eu-F6d" firstAttribute="leading" secondItem="9qg-4R-itx" secondAttribute="leading" constant="8" id="erz-lv-Jpk"/>
+                            <constraint firstItem="H66-ha-UvX" firstAttribute="centerY" secondItem="ZiV-rG-9MG" secondAttribute="centerY" id="jUb-Q8-lNP"/>
+                            <constraint firstItem="ZiV-rG-9MG" firstAttribute="leading" secondItem="9qg-4R-itx" secondAttribute="leading" constant="5" id="mne-eK-XRo"/>
+                            <constraint firstItem="c2S-by-5oq" firstAttribute="leading" secondItem="ZiV-rG-9MG" secondAttribute="trailing" constant="5" id="n9r-8x-BGc"/>
+                        </constraints>
+                    </view>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="oYU-k2-LSQ">
+                        <rect key="frame" x="0.0" y="0.0" width="219" height="251"/>
+                    </imageView>
+                </subviews>
+                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+            </view>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="oYU-k2-LSQ" secondAttribute="trailing" id="Akt-YO-w4d"/>
+                <constraint firstItem="oYU-k2-LSQ" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="HwX-Qf-Ec0"/>
+                <constraint firstItem="9qg-4R-itx" firstAttribute="top" secondItem="oYU-k2-LSQ" secondAttribute="bottom" id="I7j-j9-lKO"/>
+                <constraint firstItem="9qg-4R-itx" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="JkX-pg-e0h"/>
+                <constraint firstAttribute="trailing" secondItem="9qg-4R-itx" secondAttribute="trailing" id="iyK-yn-6Yh"/>
+                <constraint firstItem="oYU-k2-LSQ" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="lFW-mu-mXd"/>
+                <constraint firstAttribute="bottom" secondItem="9qg-4R-itx" secondAttribute="bottom" id="lHV-Vm-997"/>
+            </constraints>
+            <size key="customSize" width="219" height="356"/>
+            <connections>
+                <outlet property="iconImageView" destination="ZiV-rG-9MG" id="oVS-3X-rer"/>
+                <outlet property="imageView" destination="oYU-k2-LSQ" id="r7N-Kn-gTM"/>
+                <outlet property="label" destination="cPK-eu-F6d" id="Uje-2b-4f3"/>
+                <outlet property="nameLB" destination="c2S-by-5oq" id="ajf-wh-SrB"/>
+            </connections>
+            <point key="canvasLocation" x="-180.5" y="-106"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="braceletLiked.png" width="75" height="75"/>
+        <image name="chatListCellHead.png" width="50" height="50"/>
+    </resources>
+</document>
